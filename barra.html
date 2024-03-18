@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./barra.css"/> 
+    <title>Layout-base</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="header">        
+        <div class="box">
+            <input type="text" class="barra" style=" height: 30px;" placeholder="Pesquisar">
+            <a href="#" class="botao">
+                <div class="icon"><ion-icon name="search"></ion-icon></div>
+            </a>
+            <div class="list">
+            </div>
+        </div>
+
+        <nav id="nav">
+            <ul id="menu" class="menu">
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Carrinho</a></li>
+                <li><a href="/">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="./sugestao.js"></script>
+    <script src="./fucionamentoBarra.js"></script> 
+    <script src="./filtro-de-pesquisa.js"></script> 
+</body>
+</html>
